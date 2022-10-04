@@ -1,0 +1,17 @@
+// Add Menu
+// glutCreateMenu(menu);
+// glutAddMenuEntry("Option 1", 1);
+// glutAddMenuEntry("Option 2", 2);
+// glutAttachMenu(GLUT_RIGHT_BUTTON);
+// void menu(int id)
+// {
+//    switch(id)
+//    {
+//       case 1:
+//       break;
+
+//        case 2:
+//        break;
+
+//      }
+//  }
