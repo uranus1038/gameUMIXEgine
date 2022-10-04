@@ -1,1 +1,2 @@
-# g++ -o UMIEgineX UMIMain.cpp  -lfreeglut -lopengl32 -lglu32 # OpenGl
+# g++ -o UMIDisplay UMIMain.cpp  -lfreeglut -lopengl32 -lglu32 # OpenGl
+# g++ -o UMIEgineX  UMIWinMain.cpp  

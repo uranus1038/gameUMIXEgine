@@ -24,10 +24,6 @@ int main(int argc, char **argv)
 
     // Create Window
     glutCreateWindow("UMIEgineX 1.0.0t");
-    glutCreateMenu(menu);
-    glutAddMenuEntry("Option 1", 1);
-    glutAddMenuEntry("Option 2", 2);
-    glutAttachMenu(GLUT_RIGHT_BUTTON);
     // Callback
     glutDisplayFunc(displayCallback);
     glutReshapeFunc(reshapResponsive);
@@ -35,20 +31,6 @@ int main(int argc, char **argv)
 
     glutMainLoop();
 }
-
-void menu(int id) 
-{  
-   switch(id)      
-   {  
-      case 1:   
-      break;  
-
-       case 2: 
-       break;
-
-     }
-  }
-
 void displayCallback()
 {
 
